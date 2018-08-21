@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Leianne - Front End Web Developer</title>
+        <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+        <!-- Font-Awesome -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    </head>
+    <body>
+       <div class="main main__heading">
+           <div class="svg">
+                <svg viewBox="0 0 960 300">
+                    <symbol id="s-text">
+                        <text text-anchor="middle" x="50%" y="80%">leianne</text>
+                    </symbol>
+                
+                    <g class = "g-ants">
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                        <use xlink:href="#s-text" class="text-copy"></use>
+                    </g>
+                </svg>
+           </div>
+            <div class="center">
+            <h1>
+                <span class="typer" id="main" data-words="front end web developer, creator & designer, currently located in miami, javascript   css   html   webpack   sass  sql " data-colors="white" data-delay="100" data-deleteDelay="1000"></span>
+                <span class="cursor" data-owner="main"></span>
+            </h1>
+          </div> 
+              <div class="main__links"> 
+            <ul>
+                <li>
+                    <a id="aboutModalBtn">ABOUT</a>
+                </li>
+                <li>
+                    <a id="projectsModalBtn">PROJECTS</a>
+                </li>
+            </ul>
+          </div> 
+       </div>
+       <div class="footer" id="connect">
+            <ul id="footer-links" >
+                <li>
+                  <a id ="git" target="_blank" href="https://github.com/ledev93">
+                    <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="LeianneLouisResume.pdf">
+                    <i class="fa fa-file-text-o fa-2x" aria-hidden="true" ></i>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://linkedin.com/in/leiannelouis/">
+                    <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                 <a target="_blank" href="https://instagram.com/__leianne_">
+                    <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a target="_blank" href="https://twitter.com/__leianne_">
+                    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                  </a>
+              </li>
+              <li>
+                <a href="mailto:__leianne_@gmail.com">
+                  <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+               </a>
+              </li>
+            </ul>
+       </div>
+       <div id="mainModal">
+          <div id="aboutModal" class="modal">
+            <div class="modal-content">
+            <span class="closeBtn" id="btn1">&times;</span>
+            <h1>ABOUT ME</h1>
+            <p>Since I was little I remember always being around and messing with computers. I started my journey by getting my Comptia A+ Certification and completeing the Information Technology and Computer Systems program offered at Lorenzo Walker Technical College. The skills and knowleged I gaind helped get me get my first job in tech, fixing computers, which was fun, but I wanted to incorporate my creativity in my work, that is when I turned to development and haven't looked back. I completly submerged myself in online bootcamp courses learning HTML, CSS, Javascript and the list goes on... I am learning and growing my skills everyday, and strive to build projects that please myself and my clients. Please get in conact with me if you have ant other questions or are interested in working with me!</p>
+            
+            <p class="info-row">
+                <span class="span-title">Phone</span>
+                <span class="opacity-box">
+                    <a href="tel:239-248-3671">  239 248 3671</a>
+                </span>
+            </p>
+            <p class="info-row">
+                <span class="span-title">Email</span>
+                <span class="opacity-box">
+                    <a href="mailto:leilouis112@gmail.com">leilouis112@gmail.com</a>
+                </span>
+            </p>
+            <p class="info-row">
+                <span class="span-title">Social</span>
+                <a id ="git" target="_blank" href="https://github.com/ledev93">
+                  <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                </a>
+                <a target="_blank" href="https://linkedin.com/in/leiannelouis/">
+                  <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                </a>
+                <a target="_blank" href="https://instagram.com/__leianne_">
+                  <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+                </a>
+                <a target="_blank" href="https://twitter.com/__leianne_">
+                  <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                </a>
+            </p>
+            <p class="info-row">
+                <span class="span-title">My Skills:</span>
+                <span class="skills"> HTML5 | CSS3 | JavaScript | MySQL | SASS | Webpack</span>
+            </p>
+            </div>
+          </div>
+          <div id="projectsModal" class="modal">
+          <div class="modal-content">
+            <span class="closeBtn" id="btn2">&times;</span>
+            <h1>PROJECTS</h1>
+            
+            <div class="slideshow-container">
+            <div class="mySlides fade">
+              <a target="_blank" href="https://ledev93.github.io/travel-site-demo/dist/index.html"><img src="./images/clearescapes.png" style="width:60%"></a>
+              <div class="text"><strong>STACK:</strong> HTML, CSS, NODE.JS, GULP, SASS</div>
+              <div class="text"><a id ="git" target="_blank" href="https://github.com/ledev93/travel-site-demo"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <a target="_blank" href="https://yelpcamp-demo-leianne.herokuapp.com/"><img src="./images/yelpcamp.png" style="width:60%"></a>
+              <div class="text"><strong>STACK:</strong> HTML, CSS, EJS, MONGOOSE, PASSPORT</div>
+              <div class="text"><a id ="git" target="_blank" href="https://github.com/ledev93/yelpcamp"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></div>
+            </div>
+            
+            <!-- <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <a target="_blank" href="https://ledev93.github.io/travel-site-demo/dist/index.html"><img src="./images/OE60WU0.png" style="width:60%"></a>
+              <div class="text"><strong>STACK:</strong> HTML, CSS, NODE.JS, GULP, SASS</div>
+              <div class="text"><a id ="git" target="_blank" href="https://github.com/ledev93"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></div>
+            </div> -->
+            <a class="prev">&#10094;</a>
+            <a class="next">&#10095;</a>
+          </div>    
+          </div>
+       </div>
+      </div>
+    <script type="text/javascript" src="js/bundle.js"></script></body>
+</html>

@@ -1,0 +1,55 @@
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+
+    li{
+        list-style: none;
+        display: inline;
+     }
+    
+     a{
+        color: white;
+        text-align: center;
+        letter-spacing: 1rem;
+        text-decoration: none;
+        
+     }
+
+     a:hover{
+        color: #00FF00;
+
+     }
+    
+ }
+
+ #footer-links{
+    display: inline;
+ }
+
+
+ .main__links{
+     word-spacing: 3.5rem;
+     text-align: center;
+     margin-top: 3.5rem;
+     font-size: 1.2rem;
+
+     li{
+         list-style: none;
+         display: inline;
+     }
+
+     a{
+        color: #FF7F00;
+        font-size: 2rem;
+     }
+     a:hover{
+         color: #00FF00;
+         cursor: pointer;
+     }
+ }
